@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background: #7400B8;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    background: none;
+    border: 2px solid #5390D9;
+    padding: 1em 2em;
+    font-size: 1em;
+    color: #5390D9;
+    transition: .25s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: translateY(-0.25em);
+    border-color: #48BFE3;
+    color: #fff;
+    box-shadow: 0 0.5em 0.5em -0.3em #48BFE3;
+}
